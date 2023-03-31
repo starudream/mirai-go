@@ -60,7 +60,7 @@ func (c *Client) PeakLatestMessage(req GetMessageReq) (Messages, *http.Response,
 type SendMessageReq struct {
 	BaseReq
 	Target int64 `json:"target,omitempty"`
-	Qq     int64 `json:"qq,omitempty"`
+	QQ     int64 `json:"qq,omitempty"`
 	Group  int64 `json:"group,omitempty"`
 	Quote  int64 `json:"quote,omitempty"`
 
